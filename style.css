@@ -54,6 +54,7 @@ button {
   display: block;
   border: none;
   font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .button__primary {
@@ -93,6 +94,7 @@ button {
   .happy-traveler {
     width: 400px;
   }
+
   button {
     display: inline-block;
   }
@@ -100,6 +102,7 @@ button {
   .button__primary {
     margin: 30px 10px 10px auto;
   }
+
   .button__secondary {
     margin-left: 10px;
   }
@@ -114,6 +117,7 @@ button {
     flex-basis: calc((100% - 40px) / 3);
     padding: 40px 15px;
   }
+
   .service p {
     text-align: center;
     margin-top: 20px;
@@ -133,6 +137,10 @@ button {
     text-align: left;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .banner p {
+    margin-bottom: 0;
   }
 
   .underlining {
@@ -158,6 +166,7 @@ button {
   .service-area {
     flex-basis: 550px;
   }
+
   .service {
     margin-bottom: 0;
     text-align: center;
