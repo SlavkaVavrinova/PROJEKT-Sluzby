@@ -45,6 +45,7 @@ h2 {
   height: 2px;
   margin: 10px auto 30px auto;
 }
+
 button {
   color: #ffffff;
   font-weight: 400;
@@ -111,9 +112,76 @@ button {
   .service {
     display: block;
     flex-basis: calc((100% - 40px) / 3);
+    padding: 40px 15px;
   }
   .service p {
     text-align: center;
     margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .content {
+    max-width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .underlining {
+    margin: 10px auto 30px 0;
+  }
+
+  .banner__text,
+  .banner__img {
+    flex-basis: 490px;
+  }
+
+  .banner__img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .happy-traveler {
+    max-width: 425px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .service-area {
+    flex-basis: 550px;
+  }
+  .service {
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .travel-agency {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .delegate {
+    margin-top: 80px;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .travel-agency__text,
+  .delegate__text {
+    flex-basis: 430px;
   }
 }
